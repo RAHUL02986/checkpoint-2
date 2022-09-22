@@ -397,10 +397,7 @@ hr{
 				margin-left: 40px;
 				color: white;
 			}
-			.gallery-hr{
-				width: 90%;
-				margin-bottom: 10px;
-			}
+			
 			.right{
 				width: 60%;
 				margin-left: 350px;
@@ -429,14 +426,14 @@ hr{
 			}
 			.img-col{
 				height: 100%;
-				border: 1px solid black;
+				border: 2px solid black;
+				margin-top: 20px;
+				border-radius: 8px;
 			}
 			.img-col1{
 				height: 400px;
-				border: 1px solid black;
-			}
-			.img-col2{
-				height: 100px;
-				border: 1px solid black;
+				border: 2px solid black;
 				margin-top: 20px;
+				border-radius: 8px;
 			}
+			
