@@ -212,16 +212,33 @@ hr{
 
 
 		 
-		  h3{
+		  .skill-h3{
 			display: flex;
 			justify-content: center;
 			font-size: 16px;
 			margin-top: 30px;
 			margin-bottom: 5px;
-			font-weight: 500;
+			font-weight: 700;
 			font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+			color:rgb(132,132,132) ;
+		  }
+		  .div-h3{
+			display: flex;
+			justify-content: center;
+			width: 100%;
+			
+		  }
+		  .skill-p{
+			color:rgb(132,132,132) ;
+			margin-bottom: 20px;
+			
+		  }
+		  .heroo{
+			width: 50%;
 			color: rgb(132,132,132);
 		  }
+
+
 
 
 		  /* skills */
@@ -247,16 +264,8 @@ hr{
 		  .fourr{
 			width: 80%;
 		  }
-		  .skill{
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			margin-bottom: 80px;
-		  }
-		  .parent{
-			width: 55%;
-			border: none;
-		  }
+		
+		 
 		  .child{
 			width: 45%;
 			background-color: none;
@@ -364,14 +373,14 @@ hr{
 				text-decoration: none;
 				color: white;
 			}
-			.parent{
+			.parent1{
 				display: flex;
 				flex-direction: column;
 				justify-content: flex-end;
 				height: 500px;
 
 			}
-			.parent h3{
+			.parent, .h3{
 				font-size: 24px;
 				color: white;
 				font-weight: 900;
